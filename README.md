@@ -11,9 +11,9 @@ This allows us to easily call our FastAPI with the function names that exists in
 3. Add the dev/build scripts from `package.json` to your project
 4. Run `npm run dev` or `npm run api-build` - this should generate a `generated/api` folder that looks like the below:
 
-<img src='./folder_generated.png'>
+<img src='./folder_generated.png'/>
 <br/>
 5. Add a requests.ts file for accessing your API (ours is called coreAPI)
-<img src='./show_routes.png'>
-
+<img src='./show_routes.png'/>
+<br/>
 6. Add a request like that in `sample.ts` to your web project 🎉
