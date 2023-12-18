@@ -1,0 +1,10 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run api-build && next dev",
+    "build": "npm run api-build && next build",
+    "api-build": "ts-node ./scripts/get-openapi-spec.ts && openapi-generator-cli generate  -i ./src/generated/api/openapi.json  -g typescript-fetch  -o src/generated/api  --additional-properties=stringEnums=true,removeEnumValuePrefix=false  --global-property supportingFiles,models,apis=Core"
+  }
+}

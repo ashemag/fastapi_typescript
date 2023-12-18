@@ -1,0 +1,3 @@
+import { coreApi } from "@/requests";
+...
+user = await coreApi.getUser({ userId, authorization: `Bearer ${jwt}` });
