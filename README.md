@@ -14,4 +14,6 @@ This allows us to easily call our FastAPI with the function names that exists in
 <img src='./folder_generated.png'>
 <br/>
 5. Add a requests.ts file for accessing your API (ours is called coreAPI)
+<img src='./show_routes.png'>
+
 6. Add a request like that in `sample.ts` to your web project 🎉
